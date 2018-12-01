@@ -1,10 +1,11 @@
 {
   "name": "semantic-release-demo",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "cm": "git-cz",
+    "semantic-release": "semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,7 +16,21 @@
     "@commitlint/config-conventional": "^7.1.2",
     "commitizen": "^3.0.5",
     "cz-conventional-changelog": "^2.1.0",
-    "husky": "^1.2.0"
+    "husky": "^1.2.0",
+    "semantic-release": "^15.12.3"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/github"
+    ]
   },
   "config": {
     "commitizen": {
