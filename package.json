@@ -44,7 +44,11 @@
           "npmPublish": false
         }
       ],
-      "@semantic-release/github"
+      ["@semantic-release/github", {
+        "assets": [
+          {"path": "dist.txt", "label": "Test dist files"}
+        ]
+      }]
     ]
   },
   "config": {
