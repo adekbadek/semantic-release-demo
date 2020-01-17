@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-demo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -44,11 +44,17 @@
           "npmPublish": false
         }
       ],
-      ["@semantic-release/github", {
-        "assets": [
-          {"path": "dist.txt", "label": "Test dist files"}
-        ]
-      }]
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "dist.txt",
+              "label": "Test dist files"
+            }
+          ]
+        }
+      ]
     ]
   },
   "config": {

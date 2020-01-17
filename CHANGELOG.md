@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/adekbadek/semantic-release-demo/compare/v1.0.0...v1.1.0) (2020-01-17)
+
+
+### Features
+
+* test publishing release files ([3173944](https://github.com/adekbadek/semantic-release-demo/commit/3173944))
+
 # 1.0.0 (2018-12-01)
 
 
