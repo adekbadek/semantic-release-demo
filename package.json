@@ -23,6 +23,13 @@
     "semantic-release-version-bump": "^1.0.0"
   },
   "release": {
+    "branches": [
+      "master",
+      {
+        "name": "pre-release",
+        "prerelease": true
+      }
+    ],
     "prepare": [
       "@semantic-release/changelog",
       "@semantic-release/npm",
