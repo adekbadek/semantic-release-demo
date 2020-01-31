@@ -1,3 +1,10 @@
+# [1.3.0-alpha.1](https://github.com/adekbadek/semantic-release-demo/compare/v1.2.0...v1.3.0-alpha.1) (2020-01-31)
+
+
+### Features
+
+* update dist file ([b237171](https://github.com/adekbadek/semantic-release-demo/commit/b2371711e48692807437fd2d21a366bfea7790fc))
+
 # [1.2.0](https://github.com/adekbadek/semantic-release-demo/compare/v1.1.0...v1.2.0) (2020-01-21)
 
 
