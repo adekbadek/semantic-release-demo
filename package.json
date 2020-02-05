@@ -24,7 +24,7 @@
   },
   "release": {
     "branches": [
-      "master",
+      "release",
       {
         "name": "alpha",
         "prerelease": true
