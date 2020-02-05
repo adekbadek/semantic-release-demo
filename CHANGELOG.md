@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/adekbadek/semantic-release-demo/compare/v1.2.0...v1.3.0) (2020-02-05)
+
+
+### Features
+
+* change number ([c0efd78](https://github.com/adekbadek/semantic-release-demo/commit/c0efd78f28f554e715ed6163b8e7b6bb080eb969))
+
 # [1.2.0](https://github.com/adekbadek/semantic-release-demo/compare/v1.1.0...v1.2.0) (2020-01-21)
 
 
